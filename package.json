@@ -1,0 +1,28 @@
+{
+  "name": "MyGame",
+  "version": "1.0.0",
+  "description": "A game built with Next.js, React and Matter.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "game",
+    "matter-js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-desktop-shortcuts": "^1.10.1",
+    "matter-js": "latest  ",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "jquery": "3.7.1",
+    "styled-components": "latest"
+  }
+}
