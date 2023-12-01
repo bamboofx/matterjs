@@ -1,12 +1,12 @@
-import React, { useEffect,useState } from 'react';
+import React, { useEffect } from 'react';
 
 import PlayerComponent from './PlayerComponent';
 import PhysicsComponent, { startGame } from './PhysicsComponent';
 
 const GameComponent = () => {
-  const [ isClient, setIsClient ] = useState(false)
+ 
   useEffect(() => {
-    setIsClient(true)
+    
   }, []);
 
   function startGameHandler() {
