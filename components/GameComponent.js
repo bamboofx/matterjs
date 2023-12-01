@@ -4,9 +4,9 @@ import PlayerComponent from './PlayerComponent';
 import PhysicsComponent, { startGame } from './PhysicsComponent';
 
 const GameComponent = () => {
- 
+
   useEffect(() => {
-    
+
   }, []);
 
   function startGameHandler() {
@@ -34,12 +34,12 @@ const GameComponent = () => {
 
       <section className="splash-container">
         <h1 className="splash-title">Welcome to My Game </h1>
-        
+
 
         <div className="splash-buttons">
           <button className="splash-button" onClick={startGameHandler}>Start Game</button>
           &nbsp;
-          <button id="abc" style={{display:"none"}} className="splash-button" >Add to Home Screen</button>
+          <button id="abc" style={{ display: "none" }} className="splash-button" >Add to Home Screen</button>
         </div>
 
       </section>
