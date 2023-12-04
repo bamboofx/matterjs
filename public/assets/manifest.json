@@ -6,11 +6,12 @@
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
+    "fullscreen": "true",
     "icons": [
       {
-        "src": "./assets/images/micon.jpg",
+        "src": "./images/micon.png",
         "sizes": "512x512",
-        "type": "image/jpg"
+        "type": "image/png"
       }
     ]
   }
