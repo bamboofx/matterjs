@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
               console.log("beforeinstallprompt event")
               event.preventDefault();
               
-              setDeferredPrompt(envt)
+              setDeferredPrompt(event)
 
               // Show your custom "Add to Home Screen" button
               
