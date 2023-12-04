@@ -6,10 +6,9 @@ function MyApp({ Component, pageProps }) {
     console.log("HOME")
     setIsClient(true)    
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register("/assets/services/service-worker.js")
+      navigator.serviceWorker.register("./assets/services/service-worker.js")
         .then((registration) => {
-          console.log('Service Worker registered with scope:', registration.scope);
-          console.log(document.getElementById("abc"))
+          
           // Check if the beforeinstallprompt event is supported
           if ('onbeforeinstallprompt' in window) {
             // Add an event listener to the beforeinstallprompt event

@@ -2,7 +2,7 @@
     "name": "Game",
     "short_name": "Game",
     "description": "Description",
-    "start_url": "/",
+    "start_url": "./",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
